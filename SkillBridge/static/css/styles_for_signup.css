@@ -1,0 +1,49 @@
+
+body {
+    background: radial-gradient(circle at top center, #111f58 8%, transparent 70%),
+    radial-gradient(circle at left bottom, #3f0541 8%, transparent 70%),
+    radial-gradient(circle at right bottom, #05022e 8%, transparent 70%);
+    background-color: #000000; /* Fallback for older browsers */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.signup-container {
+    background-color: #d5d4d4;
+    width: 31.44rem; /* 567px / 16 */
+    height: 15.63rem; /* 394px / 16 */
+    padding: 1.25rem; /* 20px / 16 */
+    border-radius: 0.3125rem; /* 5px / 16 */
+    box-shadow: 0px 0.125rem 0.3125rem rgba(0, 0, 0, 0.2); /* 2px and 5px converted */
+    margin: 0 auto;
+}
+.signup-container input[type="email"],
+.signup-container input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.signup-container button {
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin-bottom: 3vh;
+    background-color: black;
+}
+.signup-container button:hover {
+    opacity: 0.7;
+}
+.flashes {
+    text-align: top;
+    display: block;
+    color: black;
+    margin-top: 0px;
+}
+

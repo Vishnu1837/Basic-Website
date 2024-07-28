@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/home.css">
+    <title>Responsive Dashboard Design #1 | SkillBridge</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Sidebar Section -->
+        <aside>
+            <div class="toggle">
+                <div class="logo">
+                    <img src="/static/images/logo.png">
+                    <h2>Skill<span class="abcde">Bridge</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">
+                        close
+                    </span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="#Analytics">
+                    <span class="material-icons-sharp">
+                        dashboard
+                    </span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        add
+                    </span>
+                    <h3>Post Work</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        explore
+                    </span>
+                    <h3>Explore</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        settings
+                    </span>
+                    <h3>Settings</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        logout
+                    </span>
+                    <h3>Logout</h3>
+                </a>
+            </div>
+        </aside>
+        <!-- End of Sidebar Section -->
+
+        <!-- Main Content -->
+        <main>
+            <h1>Specialization</h1>
+            <!-- Analyses -->
+        
+            <div class="specializations-container">
+                <div class="specializations-icon">
+                  <i class="fa-solid fa-wrench"></i>
+                </div>
+                <div class="specializations-tags">
+                  <button class="tag">Machine Learning</button>
+                  <button class="tag">Web development</button>
+                  <button class="tag">Html</button>
+                  <button class="tag">Css</button>
+                  <button class="tag">Node js</button>
+                </div>
+              </div>
+            <!-- End of Analyses -->
+
+            <!-- New Users Section -->
+            <div class="new-users">
+                <h2>Ranks</h2>
+                <div class="user-list">
+                    <div class="user">
+                        <img src="/static/images/Ranks/begginer.png">
+                        <h2>Beginner</h2>
+                    </div>
+                    <div class="user">
+                        <h2>2 projects</h2>
+                        
+                   
+                </div>
+            </div>
+            <!-- End of New Users Section -->
+
+            <!-- Recent Orders Table -->
+            <div class="recent-orders">
+                <h2>Projects on SkillBridge</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Project Name</th>
+                            <th>Project ID</th>
+                            <th>Payment</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+                <a href="#">Show All</a>
+            </div>
+            <!-- End of Recent Orders -->
+
+        </main>
+        <!-- End of Main Content -->
+
+        <!-- Right Section -->
+        <div class="right-section">
+            <div class="nav">
+                <button id="menu-btn">
+                    <span class="material-icons-sharp">
+                        menu
+                    </span>
+                </button>
+                <div class="dark-mode">
+                    <span class="material-icons-sharp active">
+                        light_mode
+                    </span>
+                    <span class="material-icons-sharp">
+                        dark_mode
+                    </span>
+                </div>
+
+                <div class="profile">
+                    <div class="info">
+                        <p>Hey, <b>Jopaul</b></p>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="/static/images/profile-User.jpg">
+                    </div>
+                </div>
+
+            </div>
+            <!-- End of Nav -->
+
+            <div class="user-profile">
+                <div class="logo">
+                    <img src="/static/images/profile-User.jpg">
+                    <h2>Jopaul Jose</h2>
+                    <p>Fullstack Web Developer</p>
+                </div>
+            </div>
+
+            <div class="reminders">
+                <div class="header">
+                    <h2>Credits</h2>
+                </div>
+
+                <div class="notification">
+                    <div class="icon" id="coin">
+                        <img src="/static/images/coin.png">
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>20 Skill credits</h3>
+                        </div>
+                        <span class="material-icons-sharp">
+                            more_vert
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script src="/static/js/orders.js"></script>
+    <script src="/static/js/index.js"></script>
+</body>
+
+</html>

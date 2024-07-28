@@ -1,0 +1,204 @@
+/* Universal styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and HTML styles */
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background: radial-gradient(circle at top center, #111f58 10%, transparent 70%),
+                radial-gradient(circle at left bottom, #3f0541 10%, transparent 70%),
+                radial-gradient(circle at right bottom, #05022e 10%, transparent 70%);
+    background-color: #000000; /* Fallback for older browsers */
+    background-size: cover;
+    background-position: center;
+    font-size: 1rem;
+}
+
+/* Background logo styles */
+.background-logo {
+    position: relative;
+    text-align: center;
+}
+
+.angle-brackets {
+    font-size: 26rem; /* Adjust the size as needed */
+    font-weight: bold;
+    position: absolute;
+    align-self: center;
+    margin-top: 1rem;
+    top: 1.25rem; /* 20px -> 1.25rem */
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ffffff; /* Adjust the color as needed */
+    opacity: 51%; /* Adjust the opacity as needed */
+}
+
+.main-content {
+    margin-top: 9.375rem; /* 150px -> 9.375rem */
+}
+
+/* Container styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    padding-top: 8rem; /* Adjusted for fixed header */
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1.25rem 3.125rem; /* 20px 50px -> 1.25rem 3.125rem */
+    background: transparent; /* Fully transparent background */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+/* Logo styles */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 2.5rem; /* 40px -> 2.5rem */
+    width: auto;
+}
+
+/* Action button container styles */
+.actions {
+    display: flex;
+    gap: 0.625rem; /* 10px -> 0.625rem */
+}
+
+/* Button styles */
+button {
+    padding: 0.625rem 1.25rem; /* 10px 20px -> 0.625rem 1.25rem */
+    border: none;
+    border-radius: 0.3125rem; /* 5px -> 0.3125rem */
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.signup {
+    background: transparent;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.signup:hover {
+    color: #ff416c;
+}
+
+.go-to-app {
+    background:#7561ff;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.go-to-app:hover {
+    background: #3700b3;
+}
+
+/* Main content styles */
+.main-content {
+    margin-top: 5rem;
+}
+
+.main-content h2 {
+    font-size: 3rem;
+    margin-bottom: 1.25rem; /* 20px -> 1.25rem */
+}
+
+.expertise-gradient-text {
+    background: linear-gradient(90deg, #ffffff, #4a4597);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* Standard property */
+    
+}
+
+.main-content p {
+    font-size: 1.25rem;
+    margin-bottom: 2.5rem; /* 40px -> 2.5rem */
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 37.5rem; /* 600px -> 37.5rem */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Button container styles */
+button {
+    font-size: 1.25rem; /* Increase font size */
+    padding: 0.75rem 1.5rem; /* Increase padding */
+    width: auto; /* Adjust width as needed */
+    height: auto; /* Adjust height as needed */
+    margin-right: 1rem; /* Add margin to the right of each button */
+    color: #ffffff; /* Change font color to white */
+}
+
+button:last-child {
+    margin-right: 0; /* Remove margin from the last button */
+}
+
+.login {
+    background: #7561ff;
+}
+
+.login:hover {
+    background: #3700b3;
+}
+
+.explore {
+    background: #4d5353;
+}
+
+.explore:hover {
+    background: #018786;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .main-content h2 {
+        font-size: 2.25rem;
+    }
+
+    .main-content p {
+        font-size: 1rem;
+    }
+
+    .background-logo img {
+        width: 15rem; /* 240px -> 15rem */
+    }
+
+    header {
+        padding: 1rem 1.5rem; /* 16px 24px -> 1rem 1.5rem */
+    }
+}
+@media (max-width: 768px) {
+    body, html {
+        font-size: 0.875rem; /* Adjust font size for smaller screens */
+    }
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6.25rem; /* 20px -> 1.25rem */
+}
+

@@ -1,0 +1,75 @@
+body {
+    color: #ffffff;
+    background: radial-gradient(circle at top center, #111f58 10%, transparent 70%),
+                radial-gradient(circle at left bottom, #3f0541 10%, transparent 70%),
+                radial-gradient(circle at right bottom, #05022e 10%, transparent 70%);
+    background-color: #000000; /* Fallback for older browsers */
+    background-size: cover;
+    background-position: center;
+    font-size: 1rem;
+    margin: 0; /* Remove default margin */
+    font-family: 'Arial', sans-serif; /* Set a default font */
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    text-align: center;
+    padding-top: 8rem; /* Adjusted for fixed header */
+    padding-left: 1rem; /* Add some padding for better spacing */
+    padding-right: 1rem; /* Add some padding for better spacing */
+    box-sizing: border-box; /* Ensure padding is included in the height */
+    padding-bottom:5rem; /* Add some padding for better spacing */
+}
+
+.about-us h1 {
+    font-size: 2.5rem; /* Larger font size for the heading */
+    margin-bottom: 1rem; /* Space below the heading */
+}
+
+.about-us p {
+    height: 35%;
+    font-size: 1.2rem; /* Slightly larger font size for paragraphs */
+    line-height: 1.6; /* Better line spacing */
+    max-width: 800px; /* Limit the width of the text */
+    margin-bottom: 1rem; /* Space below each paragraph */
+    margin: 0 auto; /* Center the about-us section horizontally */
+    font-family: 'roboto', sans-serif; /* Set a different font for paragraphs */
+}
+
+.blur-box {
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    padding: 20px;
+    border-radius: 10px; /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Drop shadow */
+    width: 80%; /* Adjust width as needed */
+    margin: 20px auto; /* Center the box */
+    text-align: center; /* Center-align text within the blur box */
+    
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 0.9rem; /* Slightly smaller font size for the footer */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5); /* Add a shadow to the footer */
+}
+
+footer p {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+footer p span {
+    font-weight: bold; /* Make the "All rights reserved" text bold */
+}
